@@ -1,0 +1,38 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    height:60px;
+    position:sticky;
+    top:0;
+    z-index: 100;
+    background-color: white;
+}
+
+.vyorius_logo{
+    width:"50";
+    height:"50"
+}
+
+.components{
+    align-items: center;
+    flex:0.75;
+    display: flex ;
+    flex-direction: row ;
+    justify-content:space-evenly !important;
+    text-decoration: none;
+    
+}
+.components_links{
+    color:gray;
+    
+    padding:4px;
+    text-decoration: none;
+    text-underline-offset: none;
+    color:gray;
+}
+.btn{
+    padding:2px;
+    color: #fff !important;
+    background-color: #FF914D !important;
+    border-color: #FF914D !important;
+}
